@@ -15,6 +15,9 @@ import kafka.producer.{KeyedMessage, Producer, ProducerConfig}
 
 import scala.io.Source
 
+/**
+* Created by Ashish Nagdev
+*/
 class KafkaProducer() {
 
   private val props = new Properties()

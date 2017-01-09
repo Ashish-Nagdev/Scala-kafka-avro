@@ -1,8 +1,11 @@
 package com.sherpa.kafkaApp
 
 import com.sherpa.producer.KafkaProducer
-import domain.User
+import com.sherpa.domain.User
 
+/**
+  * Created by Ashish Nagdev
+  */
 object ProducerApp extends App {
 
   private val topic = "demo-topic"

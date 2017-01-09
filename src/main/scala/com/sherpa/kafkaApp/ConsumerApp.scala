@@ -2,6 +2,9 @@ package com.sherpa.kafkaApp
 
 import com.sherpa.consumer.KafkaConsumer
 
+/**
+  * Created by Ashish Nagdev
+  */
 object ConsumerApp extends App {
 
   val consumer = new KafkaConsumer()

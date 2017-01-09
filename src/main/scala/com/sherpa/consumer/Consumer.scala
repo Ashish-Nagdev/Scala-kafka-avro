@@ -2,7 +2,7 @@ package com.sherpa.consumer
 
 import java.util.Properties
 
-import domain.User
+import com.sherpa.domain.User
 import org.apache.avro.Schema
 import org.apache.avro.io.DatumReader
 import org.apache.avro.io.Decoder
@@ -14,7 +14,9 @@ import kafka.serializer.DefaultDecoder
 
 import scala.io.Source
 
-
+/**
+  * Created by Ashish Nagdev
+  */
 class KafkaConsumer() {
   private val props = new Properties()
 
